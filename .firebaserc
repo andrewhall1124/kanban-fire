@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kanban-fire-7edb2": {
+      "hosting": {
+        "kanban-fire": [
+          "kanban-fire-7edb2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kanban-fire-7edb2"
+  }
+}
