@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 //Material Modules
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -20,6 +21,7 @@ import { MatCardModule } from '@angular/material/card';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
+    DragDropModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
