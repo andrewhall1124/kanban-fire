@@ -5,7 +5,6 @@ import { MatDialog } from '@angular/material/dialog';
 import { TaskDialogComponent } from './task-dialog/task-dialog.component';
 import { TaskDialogResult } from './task-dialog/task-dialog.component';
 import { CollectionReference, Firestore, FirestoreModule, collection, collectionData, doc, setDoc, deleteDoc, addDoc, updateDoc, runTransaction } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
