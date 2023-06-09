@@ -5,4 +5,6 @@
 .item {
   margin-bottom: 10px;
   cursor: pointer;
+  margin: 8px;
+  padding: 8px;
 }

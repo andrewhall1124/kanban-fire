@@ -39,3 +39,7 @@ app-new-task {
 .cdk-drag-placeholder {
   opacity: 0;
 }
+
+mat-card{
+  background-color: rgb(240, 240, 240);
+}
